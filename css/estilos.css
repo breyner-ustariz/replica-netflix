@@ -1,0 +1,232 @@
+/* generales */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.breyner {
+    
+        -webkit-text-stroke: 2px rgb(235, 0, 0);
+        color: rgb(0, 0, 0); 
+}
+h1 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    
+}
+h2 {
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+h3 {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* fondo */
+html, body, .cover{
+    height: 100%;
+}
+.cover {
+    background: url(../img/fondo.jpg);
+}
+nav {
+    margin: 0 3.5rem;
+    padding-top: 26px;
+}
+
+section.cabecera {
+    background: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.logo {
+    float: left;
+}
+.loguin {
+    color: white;
+    padding:  7px 17px;
+    float: right;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.presentacion {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    height: 60px;
+    margin-top: 8px;
+    width: 500px;
+    border-radius: 7px;
+    border: solid red 1px;
+    padding-left: 10px;
+}
+::placeholder {
+    color: red;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.probar {
+    background-color: red;
+    padding: 21px;
+    border-radius: 7px;
+    margin-left: -3px;
+    font-weight: 600;
+}
+.probar:hover {
+    cursor: pointer;
+}
+
+section {
+    background-color: #000000;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.restaurar {
+    clear: both;
+}
+.contenido {
+    width: 1000px;
+    
+    margin: auto;
+}
+.izquierda {
+    float: left;
+}
+.derecha {
+    float: right;
+}
+.flotantetexto {
+    
+    width: 59%;
+}
+.flotanteimg {
+    
+    width: 39%;
+}
+.contenido img {
+    width: 100%;
+    height: auto;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+.contenido h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+.contenido  p {
+    font-weight: 200;
+    font-size: 25px;
+}
+.tv video {
+    position: absolute;
+    transform: translate(-340px, 60px );
+    width: 285px;
+    z-index: 1;
+}
+.disfruta video {
+    position: absolute;
+    transform: translate(-310px, 60px );
+    width: 220px;
+    z-index: 1;
+}
+.portada {
+    width: 400px;
+    height: 100px;
+    background-color: #000000;
+    border: solid white 1px;
+    border-radius: 10px;
+}
+
+.portada img {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 40%;
+    height: auto;
+}
+
+.portada p {
+    font-size: 22px;
+    font-weight: 500;
+}
+.gif {
+    width: 150px;
+    transform: translate(50px, -10px );
+}
+.descargando {
+    transform: translate(-150px, 30px);
+    
+    
+}
+.preguntas h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pregunta {
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #393939;
+    
+}
+.pregunta h3 {
+    font-size: 25px;
+}
+.preguntas hr {
+    border: solid rgb(73, 73, 73) 2px;
+    
+    
+}
+.respuesta  {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 20px;
+    display: none;
+    transition: ease 5s;
+}
+.pregunta:hover .respuesta {
+    
+    display: block;
+}
+
+.input2 {
+    
+    height: 60px;
+    margin-top: 8px;
+    width: 500px;
+    border-radius: 7px;
+    border: solid red 1px;
+    padding-left: 10px;
+}
+.entrada1 {
+    border: none;
+   background-color: rgb(7, 7, 7);
+}
+
+
+.info {
+    
+    width: 800px;
+    columns: 4 20px;
+    margin: auto;
+}
+.info p {
+    color: hsla(0, 0%, 35%, 0.785);
+}
